@@ -15,7 +15,6 @@ coverage/
 
 # Storage (Generated Content)
 storage/
-*.wav
 *.mp4
 *.log
 
