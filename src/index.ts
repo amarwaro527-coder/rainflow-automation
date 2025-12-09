@@ -21,7 +21,7 @@ app.get('/health', (req, res) => {
 const startServer = async () => {
     try {
         // Initialize Workers
-        const { setupWorkers } = await import('./queue/workers');
+        const { setupWorkers } = await import('./queue/workers.js');
         setupWorkers();
 
         app.listen(config.port, () => {
